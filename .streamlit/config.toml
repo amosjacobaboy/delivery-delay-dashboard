@@ -1,0 +1,14 @@
+[theme]
+primaryColor = "#0E6BA8"       # Deep Blue for buttons/highlights
+backgroundColor = "#F8FAFC"    # Very light gray (main background)
+secondaryBackgroundColor = "#E2E8F0" # Soft gray (sidebar/cards)
+textColor = "#1E293B"          # Charcoal gray for text
+font = "sans serif"
+
+# Optional: Add these for even better customization
+[server]
+headless = true
+port = 8501
+
+[browser]
+serverAddress = "localhost"
