@@ -1,38 +1,31 @@
-📦 Delivery Delay Analytics Dashboard  
-A role-based Streamlit dashboard for analyzing delivery delay factors in supply chain operations.
+# 🚚 Delivery Delay Dashboard with Role-Based Access
 
----
+A role-based Streamlit dashboard for delivery delay analytics. Provides tailored views for Executives (KPIs), Logistics Managers (root causes), and Customer Service (order lookup).
 
-### 🎯 Overview  
-This application provides tailored insights into delivery delay patterns for different business roles:  
+## 🚀 Live Demo
+**Experience the dashboard here:**  
+👉 [https://supply-chain-delivery-delay-dashboard.streamlit.app/](https://supply-chain-delivery-delay-dashboard.streamlit.app/)
 
-**Executives** – Strategic insights and high-level recommendations  
-**Logistics Managers** – Operational analysis and improvement plans  
-**Customer Service** – Customer impact and communication strategies  
+## ✨ Features
+- **🔐 Role-Based Access Control** (Executive, Logistics Manager, Customer Service)
+- **🎛️ Interactive Filters** by date and other dimensions
+- **📊 Performance Metrics** and delay analysis
+- **📱 Responsive Design** built with Streamlit
 
----
+## 🏗️ Role Access
+| Role | Access Level | Key Features |
+|------|-------------|--------------|
+| **👔 Executive** | Strategic | High-level KPIs and trends |
+| **📦 Logistics Manager** | Operational | Carrier performance and root cause analysis |
+| **📞 Customer Service** | Tactical | Order status lookup and delay verification |
 
-### 🚀 Features
-#### 🔐 Enhanced Authentication
-- Role-based access control  
-- Secure password hashing  
-- Three user roles with different permissions  
+## 🚀 Quick Start
+```bash
+# Clone the repository
+git clone https://github.com/amosjacobaboy/delivery-delay-dashboard.git
 
-#### 📊 Role-Based Analytics
-- Executive View: Strategic business impact and ROI analysis  
-- Logistics View: Operational factors and tactical action plans  
-- Customer Service View: Customer impact and communication strategies  
+# Install dependencies
+pip install -r requirements.txt
 
-#### 🔍 Research Question 1 Analysis
-- Comprehensive factor correlation analysis  
-- Role-specific visualizations  
-- Actionable recommendations for each user type  
-
-#### 📈 Advanced Analytics
-- Delivery delay prediction factors  
-- Geographic and temporal analysis  
-- Performance metrics and KPIs  
-
----
-
-### 📁 Project Structure
+# Launch the dashboard
+streamlit run streamlit_app.py
